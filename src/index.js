@@ -18,11 +18,15 @@ reportWebVitals();
  */
 /* import React from 'react'; */
 import Profile from './components/profile/Profile.js'
-
-
+import Statistics from './components/statistics/StatisticsList.js'
+import data from './json/data.json'
 ReactDOM.render(
   <React.StrictMode>
     <Profile />
+     
+    <Statistics title="Upload stats" stats={data}/>
+  
   </React.StrictMode>,
   document.getElementById('root'),
 );
+
