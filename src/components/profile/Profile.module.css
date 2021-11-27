@@ -1,0 +1,52 @@
+li {
+  list-style: none;
+}
+.Profile {
+  background-color: rgb(66, 164, 221);
+  width: 300px;
+}
+
+.Description {
+  margin: 0 auto;
+  padding: 50px 0;
+  text-align: center;
+}
+.Avatar {
+  padding: 5px;
+  width: 100px;
+  border: 1px white solid;
+  border-radius: 50%;
+}
+.Name {
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+}
+.Tag {
+  padding: 5px;
+  color: white;
+}
+.Location {
+  color: white;
+}
+.Item {
+  border-right: 2px solid rgb(85, 83, 83);
+}
+.Stats {
+  padding: 0;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(224, 216, 216);
+}
+.Label {
+  display: block;
+  font-size: 20px;
+}
+.Quantity {
+  display: block;
+  font-size: large;
+  font-weight: bold;
+}

@@ -1,6 +1,6 @@
-/* import React from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+/* import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -16,3 +16,13 @@ ReactDOM.render(
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
  */
+/* import React from 'react'; */
+import Profile from './components/profile/Profile.js'
+
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Profile />
+  </React.StrictMode>,
+  document.getElementById('root'),
+);
