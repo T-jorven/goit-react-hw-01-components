@@ -1,15 +1,13 @@
-
 .TransactionHistory {
   width: 100%;
   border-spacing: 0;
-  background-color: rgb(186, 214, 207); 
+  background-color: rgb(186, 214, 207);
 }
 .TableTitel {
   background-color: #00b7ff;
 }
 .TableTitel th {
   padding: 10px 0;
-  
 }
 .TableTitel th + th {
   border-left: 1px solid #ffffff;

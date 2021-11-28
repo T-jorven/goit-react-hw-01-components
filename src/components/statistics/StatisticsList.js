@@ -1,26 +1,28 @@
 import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
 
-
-
 const Statistics = ({ title, stats }) => {
-    
-
   return (
-        <section className={ styles.Statistics }>
-  <div> {title !== undefined && <h2 className={styles.Title}>{title}</h2>}</div>
-        <ul className={  styles.StatList }>
+    <section className={styles.Statistics}>
+      <div>
+        {' '}
+        {title !== undefined && <h2 className={styles.Title}>{title}</h2>}
+      </div>
+      <ul className={styles.StatList}>
         {stats.map(datum => (
-        <li key={datum.id} className={styles.ListItem}   style={{ backgroundColor: `${datum.background}` }}>
+          <li
+            key={datum.id}
+            className={styles.ListItem}
+            style={{ backgroundColor: `${datum.background}` }}
+          >
             <span className={styles.Label}>{datum.label}</span>
             <span className={styles.Percentage}>{datum.percentage}%</span>
           </li>
         ))}
-  </ul>
-</section>
-    )
- }
-
+      </ul>
+    </section>
+  );
+};
 
 Statistics.propTypes = {
   title: PropTypes.string,
@@ -34,4 +36,4 @@ Statistics.propTypes = {
   ).isRequired,
 };
 
-export default Statistics
+export default Statistics;

@@ -1,13 +1,12 @@
 .FriendList {
   display: flex;
   flex-direction: column-reverse;
-
 }
 .Item {
   display: flex;
   flex-direction: row;
   align-items: center;
-    max-width: 190px;
+  max-width: 190px;
   padding: 10px;
 
   background-color: whitesmoke;
