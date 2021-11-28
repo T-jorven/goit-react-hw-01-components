@@ -3,8 +3,7 @@ import styles from './Friends.module.css'
 
 
 const Friends = ({ friends }) => {
-    console.log(friends);
-    
+
     return (
         <ul className = {styles.FriendList}>
             {friends.map(friend => (
@@ -21,11 +20,16 @@ const Friends = ({ friends }) => {
 }
 
 
+
 Friends.propTypes = {
-      id: PropTypes.number.isRequired,
-  avatar: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
-  isOnline: PropTypes.bool.isRequired,
+  friends: PropTypes.arrayOf(
+    PropTypes.shape({
+         id: PropTypes.number,
+  avatar: PropTypes.string,
+  name: PropTypes.string,
+  isOnline: PropTypes.bool,
+    }),
+  ).isRequired,
 };
 
 export default Friends
