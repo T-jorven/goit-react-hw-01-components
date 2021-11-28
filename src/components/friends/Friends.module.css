@@ -1,0 +1,31 @@
+.FriendList {
+  /* background: powderblue; */
+  display: flex;
+ /*  justify-content: center; */
+  flex-direction: column-reverse;
+
+}
+.Item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+    max-width: 190px;
+  padding: 10px;
+
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: solid 1px #000000;
+}
+.Name,
+.Avatar {
+  margin-left: 20px;
+}
+.Status {
+  display: block;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  border: solid 1px #000000;
+  border-radius: 50%;
+}

@@ -4,7 +4,7 @@ import styles from './Statistics.module.css';
 
 
 const Statistics = ({ title, stats }) => {
-      console.log(stats)
+    
 
   return (
         <section className={ styles.Statistics }>

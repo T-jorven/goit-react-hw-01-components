@@ -6,14 +6,14 @@ import styles from './Profile.module.css';
 const Profile = ({ username, tag, location, avatar, stats }) => {
     return (
       <div className={ styles.Profile }>
-      <div class={ styles.Description }>
+      <div className={ styles.Description }>
     <img
             src={ user.avatar }
             alt="User avatar"
             className={ styles.Avatar }
     />
           <p className={ styles.Name }>{user.username}</p>
-          <p classNane={ styles.Tag }>@{user.tag}</p>
+          <p className={ styles.Tag }>@{user.tag}</p>
           <p className={ styles.Location }>{ user.location }</p>
   </div>
   <ul className={ styles.Stats }>
