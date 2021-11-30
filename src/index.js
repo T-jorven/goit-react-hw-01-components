@@ -1,13 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+
 import user from './json/user.json';
-import Profile from './components/profile/Profile.jsx';
-import Statistics from './components/statistics/StatisticsList.jsx';
 import data from './json/data.json';
 import friendList from './json/friends.json';
-import Friends from './components/friends/Friends.jsx';
 import transactionInfo from './json/transactions.json';
-import TransactionHistory from './components/transactions/Transactions.jsx';
+
+import Profile from './components/Profile/Profile.jsx';
+import Statistics from './components/Statistics/StatisticsList.jsx';
+import Friends from './components/Friends/Friends.jsx';
+import TransactionHistory from './components/Transactions/Transactions.jsx';
 
 ReactDOM.render(
   <React.StrictMode>

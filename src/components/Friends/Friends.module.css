@@ -26,3 +26,9 @@
   border: solid 1px #000000;
   border-radius: 50%;
 }
+.Online{
+  background-color: rgb(75, 126, 24);
+}
+.Offline{
+  background-color: rgb(180, 19, 7);
+}
